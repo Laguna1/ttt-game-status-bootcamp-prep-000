@@ -22,3 +22,7 @@ def won?(board)
     position_taken?(board, stack[0])
   end
 end
+
+def full?
+
+end
