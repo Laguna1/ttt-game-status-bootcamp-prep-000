@@ -36,4 +36,9 @@ def over?(board)
 end
 
 def winner(board)
+ if wstackmbo = won?(board)
+    board[winning_combo.first]
+  end
+end
+end
 
